@@ -21,13 +21,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-//    WaitAniView *loadingHubView = [[WaitAniView alloc] initWithFrame:self.view.bounds];
-//    [self.view addSubview:loadingHubView];
-//    [loadingHubView showHub];
+    WaitAniView *loadingHubView = [[WaitAniView alloc] initWithFrame:CGRectMake(150, 100, 100, 100)];
+    [self.view addSubview:loadingHubView];
+    [loadingHubView showHub];
     
-    WaitAniView2 *loadingHubView = [[WaitAniView2 alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
-    [self.view addSubview:loadingHubView]; 
-    _loadingHubView = loadingHubView;
+    WaitAniView2 *loadingHubView2 = [[WaitAniView2 alloc] initWithFrame:CGRectMake(10, 100, 100, 100)];
+    [self.view addSubview:loadingHubView2];
+    _loadingHubView = loadingHubView2;
  
 }
 
